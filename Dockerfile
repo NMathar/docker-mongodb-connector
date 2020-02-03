@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV TZ Europe/Berlin
 
 # Installing Mongo Connector which will connect MongoDB and Elasticsearch
-RUN pip install 'mongo-connector[elastic5]==2.5.1'
+RUN pip install 'mongo-connector[elastic5]==3.1.1'
 
 COPY startup.sh /tmp/
 
